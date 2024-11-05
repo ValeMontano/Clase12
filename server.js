@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 app.get(["/", "/:name"], (req, res) => {
   greeting = "<h1>Hello World. I'm Node App</h1>";
